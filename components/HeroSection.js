@@ -3,6 +3,17 @@ const chips = ['Dentists', 'Dermatologists', 'Med Spas', 'Gynecologists'];
 export default function HeroSection() {
   return (
     <header className="hero">
+      <div className="hero-scene" aria-hidden="true">
+        <div className="hero-orb">
+          <span className="hero-orbit hero-orbit-one" />
+          <span className="hero-orbit hero-orbit-two" />
+          <span className="hero-orbit hero-orbit-three" />
+        </div>
+        <span className="hero-spark hero-spark-one" />
+        <span className="hero-spark hero-spark-two" />
+        <span className="hero-spark hero-spark-three" />
+      </div>
+
       <div className="c hg">
         <div>
           <span className="tag">LOCAL SEO SOFTWARE</span>

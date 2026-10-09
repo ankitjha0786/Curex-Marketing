@@ -9,8 +9,15 @@ const guides = [
 
 export default function GuidesSection() {
   return (
-    <section className="alt">
-      <div className="c">
+    <section className="alt guides-section">
+      <div className="guides-scene" aria-hidden="true">
+        <span className="guides-orbit guides-orbit-one" />
+        <span className="guides-orbit guides-orbit-two" />
+        <span className="guides-orb guides-orb-one" />
+        <span className="guides-orb guides-orb-two" />
+      </div>
+
+      <div className="c guides-content">
         <div className="hd rv">
           <span className="tag">SPECIALTY GUIDES</span>
           <h2>Local SEO Guides by Specialty</h2>

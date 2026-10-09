@@ -23,7 +23,13 @@ const featureCards = [
 
 export default function FeatureShowcase() {
   return (
-    <section>
+    <section className="feature-section">
+      <div className="feature-scene" aria-hidden="true">
+        <span className="feature-orb feature-orb-one" />
+        <span className="feature-orb feature-orb-two" />
+        <span className="feature-orb feature-orb-three" />
+      </div>
+
       <div className="c nx">
         <div className="hd rv">
           <span className="tag">WHAT WE DO</span>
